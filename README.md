@@ -1,30 +1,13 @@
-# Standards and Guidelines
+# Viability of Machine Translation for Healthcare in Low-Resourced Languages
 
-## Translation
-* IMIA Guide on Medical Translation [link](https://www.imiaweb.org/uploads/pages/438.pdf)
-  * Description: guide mainly focused on published medical infortaion. More emphasis on trained human interpreaters. Section on  "How should the source document be prepared for translation?" on page 6 relevant to translation more boradly. 
-* Massachusetts Department of Public Health Translation Guidelines [link](https://www.mass.gov/doc/language-access-plan-2024-2025-0/download)
-  *  Description: outline of MA guideline for Langauge Access Plan. Mainly focused on interpreter services avaiabkle, what materials are needed to be translated to the most spoken langauges in MA, e.t.c. Page 24 on "Plain Language" gives suggestions of what the source text should be like.
-* Medical Writing Chpater 9: The use of Passive Voice [link](https://www.cambridge.org/core/books/abs/medical-writing/use-of-the-passive-voice/9D4C3A1BF9D86ACC0D6D9D2EBE666731)
+[Paper]()
 
-## Culture
-* [ADDRESSING framework](https://thinkculturalhealth.hhs.gov/assets/pdfs/resource-library/addressing-framework.pdf) for what social identities to consider when getting to know someone's cultural identity.
-* [Arthur Kleinman’s Eight Questions ](https://thinkculturalhealth.hhs.gov/assets/pdfs/resource-library/arthur-kleinmans-eight-questions.pdf) for understanding patients "explanatory model" of their pain and condition.
-* [RESPECT Model](https://thinkculturalhealth.hhs.gov/assets/pdfs/resource-library/respect-model.pdf) for factors to cosider in providing culturally and linguistically appropriate care.
-* other resources at [Think Cultural Health](https://thinkculturalhealth.hhs.gov/resources/library)
-    
-# Papers
+## Abstract
+Machine Translation errors in high-stakes settings like healthcare pose unique risks that could lead to clinical harm. The challenges are even more pronounced for low-resourced languages where human translators are scarce and MT tools perform poorly. In this work, we provide a taxonomy of Machine Translation errors for the healthcare domain using a publicly available MT system. Preparing an evaluation dataset from pre-existing medical datasets, we conduct our study focusing on two low-resourced languages: Amharic and Tigrinya. Based on our error analysis and findings from prior work, we test two pre-translation interventions--namely, paraphrasing the source sentence and pivoting with a related language-- for their effectiveness in reducing clinical risk. We find that MT errors for healthcare most commonly happen when the source sentence includes medical terminology and procedure descriptions, synonyms, figurative language, and word order differences. We find that pre-translation interventions are not effective in reducing clinical risk if the base translation model performs poorly. Based on our findings, we provide recommendations for improving MT for healthcare. 
 
-## Impacts of mistranslation in care
-* [For Non-English Speakers, Drug Label Instructions Can Be Lost in Translation](https://jamanetwork.com/journals/jama/article-abstract/207538)
-* [Inaccurate Language Interpretation and Its Clinical Significance in the Medical Encounters of Spanish-speaking Latinos](https://pubmed.ncbi.nlm.nih.gov/26465121/)
-  
-## MT in medical Translations
-* [The use of machine translation and AI in medical translation: pros and cons](https://journal.emwa.org/translation/the-use-of-machine-translation-and-ai-in-medical-translation-pros-and-cons/)
-* [Physician Detection of Clinical Harm in Machine Translation: Quality
-Estimation Aids in Reliance and Backtranslation Identifies Critical Errors](https://aclanthology.org/2023.emnlp-main.712.pdf)
-* [Reliable and Safe Use of Machine Translation in Medical Settings](https://doi.org/10.1145/3531146.3533244)
+## Data
+**AfriDOC-MT:** AFRIDOC-MT: Document-level MT Corpus for African Languages. Jesujoba O. Alabi and Israel Abebe Azime and Miaoran Zhang and Cristina España-Bonet and Rachel Bawden and Dawei Zhu and David Ifeoluwa Adelani and Clement Oyeleke Odoje and Idris Akinade and Iffat Maab and Davis David and Shamsuddeen Hassan Muhammad and Neo Putini and David O. Ademuyiwa and Andrew Caines and Dietrich Klakow (2025) [URL](https://arxiv.org/abs/2501.06374)
+**DischargeME** Justin Xu. 2024. Discharge Me: BioNLP ACL’24 Shared Task on Streamlining Discharge Documentation. [URL](https://physionet.org/content/discharge-me/1.3/)
 
-## Cuture in helathcare
-* [Reliable and Safe Use of Machine Translation in Medical Settings](https://doi.org/10.1145/3531146.3533244) 
-* [A Culturally Competent Approach to Discharge Planning and Transfer of Care](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10773675/)
+
+
