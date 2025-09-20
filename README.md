@@ -7,6 +7,7 @@ Machine Translation errors in high-stakes settings like healthcare pose unique r
 
 ## Data
 **AfriDOC-MT:** AFRIDOC-MT: Document-level MT Corpus for African Languages. Jesujoba O. Alabi and Israel Abebe Azime and Miaoran Zhang and Cristina España-Bonet and Rachel Bawden and Dawei Zhu and David Ifeoluwa Adelani and Clement Oyeleke Odoje and Idris Akinade and Iffat Maab and Davis David and Shamsuddeen Hassan Muhammad and Neo Putini and David O. Ademuyiwa and Andrew Caines and Dietrich Klakow (2025) [URL](https://arxiv.org/abs/2501.06374)
+
 **DischargeME** Justin Xu. 2024. Discharge Me: BioNLP ACL’24 Shared Task on Streamlining Discharge Documentation. [URL](https://physionet.org/content/discharge-me/1.3/)
 
 
